@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    padding: 3rem;
+    font-size: 48px;
+    font-family: Quicksand;
+    font-weight: 500;
+    color: white;
+    background-color: #f5c956;
+}
+.team-header{
+    width: 100%;
+    height: auto;
+}
+#board, .teams{
+    background: #f5c956;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+.teams{
+    background: white;
+}
+.directors{
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    font-family: Quicksand;
+    font-weight: 700;
+    padding: 3rem;
+    margin: -5px 0;
+    background: #f5c956;
+}
+.ellipse{
+    background-image: url(./images/Ellipse18.png);
+    width: 320px;
+    height: 355px;
+    margin: 2rem 2rem 0 ;
+    background-repeat: no-repeat;
+}
+#ellipse{
+    background-image: url(./images/Ellipse24.png);
+}
+.director-img, .team-member-img{
+    width: 220px;
+    height: 355px;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.director-name,.team-member-name{
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: 500;
+    color: black;
+    font-size: 40px;
+}
+.director-team-name,.team-name{
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.design{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.gradient{
+    width: 100%;
+}
+.lines{
+    width: 100%;
+    margin-top: -180px;
+}
+.meet{
+    color: #f5c956;
+    font-family: Quicksand;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 2rem 0 0 7rem;
+}
+#all-teams{
+    display: flex;
+}
+#finance-team,#marketing-team,#content-team,#development-team{
+    display: none;
+}
+.departments{
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    background: rgba(245, 201, 86, 0.5);
+}
+.departments p{
+    width: 270px;
+    height: 117px;
+    text-align: center;
+    font-family: Rosario;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 25px;
+}
+.departments p:hover{
+    color: white;
+    background: #f5c956;
+    border-bottom: 5px solid white;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+@media screen and (max-width: 770px){
+.head{
+    padding: 2rem;
+    font-size: 30px;
+}
+.directors{
+    font-size: 40px;
+    padding: 2rem;
+}
+.director-name,.team-member-name{
+    font-size: 30px;
+}
+.director-team-name,.team-name{
+    font-size: 25px;
+}
+.meet{
+    font-size: 40px;
+    margin: 2rem 0 0 4rem;
+}
+.departments{
+    margin: 2rem;
+}
+.departments p{
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width:500px){
+.meet{
+    font-size: 30px;
+    margin: 2rem 0 0 2rem;
+}
+.teams, #board{
+    display: flex;
+    justify-content: center;
+}
+.ellipse{
+    margin: 3rem 0 0 0;
+}
+.departments{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    background: rgba(245, 201, 86, 0.5);
+}
+.departments p{
+    width: 100px;
+    height: 70px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+}
